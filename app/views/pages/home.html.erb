@@ -1,8 +1,38 @@
-<div class="landingpage">
-<div class="container">
-<h1>Mathieu Chirac </h1>
-<p>Développeur web</p>
-
-
-</div>
+<div class="all">
+  <div class="lefter">
+    <%= link_to "https://github.com/Astarte19dev", target: :_blank do %>
+    <%= image_tag "github.svg", id:"github" %>
+    <% end %>
+      <div class="text">Mon Github
+      </div>
   </div>
+
+  <div class="left">
+    <%= link_to "https://www.linkedin.com/in/mathieu-chirac-1b453123b/", target: :_blank do %>
+    <%= image_tag "linkedin.svg", id:"linkedin" %>
+    <% end %>
+      <div class="text">Mon Linkedin
+      </div>
+  </div>
+
+  <div class="center">
+
+    <div class="explainer"><span>Mathieu CHIRAC</span></div>
+    <div class="text">Développeur web</div>
+
+  </div>
+
+  <div class="right">
+   <%= link_to "https://github.com/Astarte19dev", target: :_blank do %>
+    <%= image_tag "globe-solid.svg", id:"globe" %>
+    <% end %>
+    <div class="text">Mon travail</div>
+  </div>
+
+  <div class="righter">
+   <%= link_to "https://www.youtube.com/@lemondeducode2168", target: :_blank do %>
+    <%= image_tag "youtube.svg", id:"youtube" %>
+    <% end %>
+    <div class="text">Ma chaîne Youtube</div>
+  </div>
+</div>
