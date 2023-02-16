@@ -1,6 +1,6 @@
 <div class="container">
 <%= image_tag 'My_Social_Media_Page.svg', id:'qrcode' %>
-  </div>
+
 <div class="all">
   <div class="lefter">
     <%= link_to "https://github.com/Astarte19dev", target: :_blank do %>
@@ -20,7 +20,8 @@
 
   <div class="center">
     <div class="explainer"><span>Mathieu CHIRAC</span></div>
-    <div class="text">Développeur web</div>
+     <%= link_to "#", social_media_path %>
+    <div class="text">Contact & social media</div>
 
   </div>
 
@@ -36,3 +37,4 @@
     <div class="text">Ma chaîne Youtube</div>
   </div>
 </div>
+  </div>
