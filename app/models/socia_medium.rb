@@ -1,0 +1,2 @@
+class SociaMedium < ApplicationRecord
+end
