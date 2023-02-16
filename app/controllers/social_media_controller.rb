@@ -1,5 +1,5 @@
 class SocialMediaController < ApplicationController
   def index
-    @social_medias = Social_media.all
+    @socia_mediums = SociaMedium.all
   end
 end
