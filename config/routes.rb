@@ -6,5 +6,4 @@ Rails.application.routes.draw do
   # root "articles#index"
   # get "/about_me", to: "about#index", as: about_me
   resources :projects, only: :index
-  resources :social_media, only: :index
 end
